@@ -1,5 +1,8 @@
 body{
     background-color: blueviolet;
+    background-image: url("../images/Toasters.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 body, html{
     height: 100%;
@@ -113,7 +116,13 @@ nav a:hover{
 }
 
 .main-articles{
-    background-color:  orange;
+    color: white;
+    background-color:  rgba(238, 93, 238, 0.5);
+}
+
+#Please-read-me img{
+    position: left;
+    border-radius: 80%;
 }
 
 form{
